@@ -2,10 +2,11 @@
     <string name="app_name">Kfu</string>
     <string name="todo">TODO</string>
     <string name="hello_kitty">Hello Kitty</string>
-    <string name="person_page" >Личный кабинет</string>
+    <string name="person_page">Личный кабинет</string>
     <string name="ric1"></string>
     <string name="pic1">TODO</string>
     <string name="prompt_email">Логин</string>
     <string name="prompt_password">Пароль</string>
     <string name="action_sign_in">Войти</string>
+    <string name="time_table_title">Расписание</string>
 </resources>
