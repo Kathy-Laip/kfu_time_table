@@ -50,13 +50,13 @@
         android:id="@+id/username_input_layout"
         android:layout_width="323dp"
         android:layout_height="42dp"
-        android:background="@color/white"
         android:layout_marginStart="5dp"
         android:layout_marginTop="275dp"
         android:autofillHints="@string/prompt_email"
         android:hint="@string/prompt_email"
         android:inputType="textEmailAddress"
         android:selectAllOnFocus="true"
+        android:background="@drawable/formsradius"
         app:layout_constraintEnd_toEndOf="@id/textView"
         app:layout_constraintStart_toStartOf="@id/textView"
         app:layout_constraintTop_toTopOf="parent">
@@ -71,7 +71,7 @@
         android:id="@+id/password_input_layout"
         android:layout_width="323dp"
         android:layout_height="42dp"
-        android:background="@color/white"
+        android:background="@drawable/formsradius"
         android:layout_marginStart="5dp"
         android:layout_marginTop="345dp"
         android:autofillHints="@string/prompt_email"
@@ -99,12 +99,43 @@
         android:fontFamily="PT Sans"
         android:textStyle="bold"
         android:textColor="#004F8C"
-        android:backgroundTint="@color/white"
+        android:background="@drawable/formsradius"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password_input_layout"
+        />
+    
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="40dp"
+        android:elevation="6dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        app:layout_constraintStart_toStartOf="@id/username_input_layout"
+        app:layout_constraintTop_toBottomOf="@+id/loginOrRegister"
+        android:src="@drawable/buttonone"
+        android:background="@drawable/but11"
+        android:contentDescription="@string/TODO" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="200dp"
+        android:elevation="6dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        app:layout_constraintStart_toStartOf="@id/username_input_layout"
+        app:layout_constraintTop_toBottomOf="@+id/loginOrRegister"
+        android:src="@drawable/buttontwo"
+        android:background="@drawable/but11"
+        android:contentDescription="@string/TODO"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
